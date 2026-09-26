@@ -1,0 +1,16 @@
+# 生成产物（可重新生成，勿入库）
+out/
+*.log
+__pycache__/
+*.pyc
+
+# 大字体（平面 15/16 各 5.8 MB，跑 gen_font.py --full-pua 生成）
+out/AICryptLangP15.ttf
+out/AICryptLangP16.ttf
+*.bak
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
